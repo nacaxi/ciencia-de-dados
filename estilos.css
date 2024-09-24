@@ -13,11 +13,17 @@ body{
 }
 
 .cabecalho{
-    background-color: var(--bg-color);
+    background-color: var(--primaary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    color: var(--primaary-color);
+    
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700
 }
