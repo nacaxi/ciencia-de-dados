@@ -9,6 +9,7 @@ body{
     color: var(--primaary-color);
     font-family: var(--font);
     height: 100vh;
+    margin: 0;
 }
 
 .cabecalho{
