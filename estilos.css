@@ -4,6 +4,12 @@
     --secondary-color:#C1E2A4;
     --font: "Nunito Sans", sans-serif;
 }
+body{
+    background-color: var(--bg-color);
+    color: var(--primaary-color);
+    font-family: var(--font);
+    height: 100vh;
+}
 
 .cabecalho{
     background-color: var(--bg-color);
