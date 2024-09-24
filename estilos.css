@@ -4,3 +4,11 @@
     --secondary-color:#C1E2A4;
     --font: "Nunito Sans", sans-serif;
 }
+
+.cabecalho{
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
