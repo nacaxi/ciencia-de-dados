@@ -27,3 +27,10 @@ h1{
     color: var(--bg-color);
     font-weight: 700
 }
+
+nav a{
+    text-decoration: none;
+    color: var(--bg-color);
+    margin: 0 2rem 1rem 0;
+    font-size: 1,2rem;
+}
