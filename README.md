@@ -1,2 +1,2 @@
-# analise-dados
-Neste projeto iremos analisar muitos dados
+# Ciências de dados
+Trabalho de Programação II - Alessandro, Ailla, Giovana e Natan
