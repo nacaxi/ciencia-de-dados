@@ -5,6 +5,7 @@ async function visualizarDados(){
   const dados = await res.json()
   regiao = 0
   tipo_dados = (dados[0]['variavel'])
+  const container = document.getElementById('graficos--container')
   console.log(tipo_dados)
 
 }
