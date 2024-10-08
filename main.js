@@ -10,7 +10,7 @@ async function visualizarDados(){
   console.log(resultado_dados)
 
   const paragrafo = document.createElement('p')
-  paragrafo.classList.add(graficos--container)
+  paragrafo.classList.add(graficos--container__texto)
   paragrafo.innerHTML = "graficos"
 }
 
