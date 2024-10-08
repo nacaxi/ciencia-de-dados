@@ -5,7 +5,12 @@ async function visualizarDados(){
   const dados = await res.json()
   região = 0
   tipo_dados = (dados[0]['variavel'])
+  console.log(tipo_dados)
   resultado_dados = (dados[0]['resultados'][0]["series"][0]["serie"])
+  console.log(resultado_dados)
+
+  const paragrafo = document.createElement('p')
+  paragrafo.classList.add(graficos--container__texto)
 }
 
 visualizarDados()
