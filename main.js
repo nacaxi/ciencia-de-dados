@@ -11,7 +11,7 @@ async function visualizarDados(){
 
   const paragrafo = document.createElement('p')
   paragrafo.classList.add("graficos--container__texto")
-  paragrafo.innerHTML = "graficos"
+  paragrafo.innerHTML = "GRAFICO BOTA"
 
   const container = document.getElementById('graficos--container')
 
