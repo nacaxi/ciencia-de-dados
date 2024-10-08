@@ -12,7 +12,10 @@ async function visualizarDados(){
   const paragrafo = document.createElement('p')
   paragrafo.classList.add("graficos--container__texto")
   paragrafo.innerHTML = "graficos"
+
   const container = document.getElementById('graficos--container')
+
+  container.appendChild(paragrafo)
 }
 
 visualizarDados()
