@@ -7,11 +7,16 @@ async function visualizarDados(){
   tipo_dados = (dados[0]['variavel'])
   console.log(tipo_dados)
   resultado_dados = (dados[0]['resultados'][0]["series"][0]["serie"])
+  
+  let ano = Object.keys(resultado_dados)
+  let valor = Object.values(resultado_dados)
+  
   console.log(resultado_dados)
 
   const paragrafo = document.createElement('p')
   paragrafo.classList.add("graficos--container__texto")
-  paragrafo.innerHTML = "GRAFICO BOTA"
+  paragrafo.innerHTML = "No ano de ${ano[0]} foi obtido um valor de ${valor[0]}"
+  console.log(paragrafo)
 
   const container = document.getElementById('graficos--container')
 
