@@ -11,7 +11,7 @@ async function visualizarDados(){
   let ano = Object.keys(resultado_dados)
   let valor = Object.values(resultado_dados)
   
-  console.log(resultado_dados)
+  console.log(ano.slice(0,4))
 
   const paragrafo = document.createElement('p')
   paragrafo.classList.add("graficos--container__texto")
