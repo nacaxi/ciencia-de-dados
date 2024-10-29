@@ -16,6 +16,7 @@ async function visualizarDados(){
   const paragrafo = document.createElement('p')
   paragrafo.classList.add("graficos--container__texto")
   paragrafo.innerHTML = `No ano de ${ano[0].slice(0,4)} foi obtido um valor de ${valor[0]}`
+  paragrafo.innerHTML += `Esta é uma análise de ${tipo_dados[0]}`
   console.log(paragrafo)
 
   const container = document.getElementById('graficos--container')
